@@ -52,7 +52,7 @@ fully typed. Components just map over these arrays, so you can:
   The timeline extends automatically.
 - **Add an achievement**: push into `achievements`.
 
-No component code needs to change for any of the above.
+No component code needs to change for any of the above
 
 ## Things to wire up before deploying
 
