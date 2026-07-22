@@ -157,13 +157,24 @@ export type Project = {
 // Add new projects here — the grid automatically flows into new rows.
 export const projects: Project[] = [
   {
+    id: "HelioSense",
+    title: "HelioSense",
+    tagline: "AI-Powered Solar Flare Early Warning & Forecasting System",
+    description:
+      "Deep learning framework for solar flare nowcasting and forecasting using ISRO Aditya-L1 (SoLEXS/HEL1OS) and NASA GOES X-ray observations.",
+    tech: ["Python", "PyTorch", "Pandas", "NumPy", "Astropy", "PatchTST", "1D CNN"],
+    githubUrl: "https://github.com/GroupDevProjects/HelioSense",
+    icon: Megaphone,
+    gradient: ["#2563EB", "#7C6CF0"],
+  },
+  {
     id: "campaign",
     title: "campAIgn",
     tagline: "AI Marketing Campaign Automation Platform",
     description:
       "An AI-powered platform that generates and automates marketing campaigns end-to-end, from customer segmentation to email workflows — backed by a full MERN stack with n8n automation and OpenAI integration.",
     tech: ["React", "Node.js", "MongoDB", "OpenAI API", "JWT", "Python", "n8n"],
-    githubUrl: "https://github.com/campAIgn-dev",
+    githubUrl: "https://github.com/GroupDevProjects/campAIgn",
     icon: Megaphone,
     gradient: ["#2563EB", "#7C6CF0"],
   },
