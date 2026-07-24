@@ -115,11 +115,11 @@ export const experience: ExperienceItem[] = [
     org: "Indian Institute of Technology (IIT) Guwahati",
     date: "June 2026 – July 2026",
     points: [
-      "Worked on scalable NLP pipelines for production-style workloads",
-      "Built systems involving Named Entity Recognition, POS tagging, and text classification",
-      "Used Transformer architectures with TensorFlow",
+      "Developed HelioSense, an end to end deep learning framework for forecasting solar flares using ISRO Aditya-L1 (SoLEXS/HELIOS) and NASA GOES satellite observations.",
+      "Engineered a scalable satellite data pipeline through FITS parsing, GTI based quality validation, temporal synchronization, and multivariate feature generation for deep learning.",
+      "Designed a hybrid 1D CNN + PatchTST architecture that captures local temporal patterns and long-range dependencies in multivariate solar X-ray time-series data for accurate flare prediction.",
       "Optimized tokenization pipelines for speed and consistency",
-      "Improved performance and reproducibility of NLP workflows",
+      "Implemented a multi-task learning framework for simultaneous solar flare nowcasting and forecasting, achieving 83.6% nowcast accuracy while predicting future flare occurrence, peak X-ray flux, and 6-hour flare probability up to a 3-hour forecasting horizon. ",
     ],
   },
 ];
@@ -212,7 +212,7 @@ export const achievements: Achievement[] = [
   {
     id: "intern",
     title: "Research Intern at IIT Guwahati",
-    description: "Contributed to scalable NLP pipelines using Transformer architectures.",
+    description: "Conducted research on deep learning applications in space weather prediction.",
     icon: FlaskConical,
   },
   {
